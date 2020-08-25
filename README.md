@@ -1,4 +1,6 @@
 # AWSLambda_Packages
+Under the folder Compatible Packages, you can just download these packages that are already compatible to AWS Lambda runtime.
+
 A repository explaining how to make Python Libraries into AWS Lambda compatible packages as a Layer.
 
 ## Using Linux Environment
@@ -49,7 +51,7 @@ Compiling the libraries in an instance type of amazonlinux OS environment <br>
      ```
      5. Move the relevant folders into a directory build\python\lib\python3.8\site-packages <br>
      eg, in the case for (opencv) cv2, dlib, imutils, numpy, your build\python\lib\python3.8\site-packages should look like this
-     <image src="readme_image_01.PNG" width="600"> <br>
+     <image src="readme_images/readme_image_01.PNG" width="600"> <br>
      6. Zip up the python folder at build\python. <br>
      In your \build directory, you should have the build\python\lib\python3.8\site-packages folder and the zipped folder (python.zip)
      
